@@ -1,0 +1,205 @@
+/* @theme janosch-braukmann */
+/* @auto-scaling fittingHeader */
+
+@import 'default';
+
+:root {
+    /* Dark blue for headings and primary elements */
+    --color-fg-default: #333;
+    --color-fg-muted: #666;
+    --color-fg-subtle: #888;
+
+    /* Accent colors */
+    --color-accent: #1a4a6e;
+    --color-highlight: #50b2db;
+
+    /* Light color for inverted backgrounds (footers, muted text) */
+    --color-light: rgba(255, 255, 255, 0.7);
+
+    /* Slightly warm grey background */
+    --color-canvas-default: #f8f9fa;
+    --color-canvas-subtle: #f0f1f2;
+
+    /* Links and interactive elements use the highlight color */
+    --color-accent-fg: #50b2db;
+    --color-accent-emphasis: #1a4a6e;
+}
+
+section {
+    background-color: var(--color-canvas-default);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-accent);
+}
+
+h1 {
+    font-size: 1.6em;
+    border-bottom: 2px solid var(--color-highlight);
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.15em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 0.9em;
+}
+
+h1+h2,
+h1+h3 {
+    margin-top: -0.5em;
+}
+
+a {
+    color: var(--color-highlight);
+}
+
+a:hover {
+    color: var(--color-highlight);
+}
+
+strong {
+    color: var(--color-accent);
+}
+
+code {
+    background: var(--color-canvas-subtle);
+    color: var(--color-accent);
+}
+
+blockquote {
+    border-left: 4px solid var(--color-highlight);
+    background: var(--color-canvas-subtle);
+}
+
+table {
+    font-weight: 300;
+    font-size: 0.90em;
+}
+
+table th {
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 500;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Lead/title slides */
+section.lead h1 {
+    border-bottom: 3px solid var(--color-highlight);
+}
+
+/* Invert class adjustments */
+section.invert {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+section.invert h1,
+section.invert h2,
+section.invert h3 {
+    color: #fff;
+}
+
+section.invert h1 {
+    border-bottom-color: var(--color-highlight);
+}
+
+section.invert a {
+    color: var(--color-highlight);
+}
+
+section.invert code {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-highlight);
+}
+
+/* Lead and chapter slides automatically use inverted style */
+section.lead,
+section.chapter {
+    background: var(--color-accent);
+    color: #fff;
+    justify-content: center;
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3,
+section.chapter h1,
+section.chapter h2,
+section.chapter h3 {
+    color: #fff;
+}
+
+section.lead h1,
+section.chapter h1 {
+    border-bottom-color: var(--color-highlight);
+}
+
+section.lead a,
+section.chapter a {
+    color: var(--color-highlight);
+}
+
+section.lead code,
+section.chapter code {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-highlight);
+}
+
+section.lead footer,
+section.chapter footer,
+section.invert footer {
+    color: var(--color-light);
+}
+
+/* CTA slide - large centered call-to-action text */
+section.cta p {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3em;
+}
+
+section.cta p a {
+    color: var(--color-highlight);
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+}
+
+section.cta p a:hover {
+    background: var(--color-highlight);
+    color: #fff;
+}
+
+/* Images in paragraphs */
+p>img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Code blocks - fit content width */
+pre {
+    width: fit-content;
+}
