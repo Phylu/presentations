@@ -75,6 +75,14 @@ a:hover {
     color: var(--color-highlight);
 }
 
+p {
+    font-size: 0.95em;
+}
+
+li {
+    font-size: 0.95em;
+}
+
 strong {
     color: var(--color-accent);
 }
@@ -91,7 +99,7 @@ blockquote {
 
 table {
     font-weight: 300;
-    font-size: 0.90em;
+    font-size: 0.85em;
 }
 
 table th {
