@@ -77,7 +77,22 @@ Cloud-Backup und Gerätesynchronisation gehören für mich dazu. Leider kosten S
 
 ---
 
-TODO: Video ?
+# Stockerl in Aktion
+
+<style scoped>
+p {
+  text-align: center;
+}
+p img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+</style>
+
+![width:200px](assets/screenshot_hives.png) ![width:200px](assets/screenshot_observation.png) ![width:200px](assets/screenshot_honeybook.png) ![width:200px](assets/screenshot_bottling.png) ![width:200px](assets/screenshot_import_export.png)
+
+**Mein Test-Gerät gebe ich gerne herum.**
 
 ---
 <!-- _class: chapter -->
@@ -139,62 +154,47 @@ Deine Ideen fließen direkt in die Entwicklung ein – ich bin nur eine Nachrich
 
 ---
 
-## So nimmst du am Beta-Test teil
+# Anmeldung für den Test
 
-<div style="display: flex; gap: 3em; align-items: flex-start;">
-<div style="flex: 1;">
+**1️⃣ Trag dich in die Liste ein**
 
-**1️⃣ E-Mail mit kurzer Vorstellung**
+Dann schalte ich die E-Mail Adresse für den Test frei
 
-Schreib mir an **janosch@stockerl.app** – stell dich kurz vor (Wie viele Völker? Wie lange imkerst du schon?).
+**2️⃣ Werde Tester in Google Play**
 
-**2️⃣ Ich nehme dich in die Beta-Gruppe auf**
+Trete über den QR-Code zum Test bei und lade die App herunter
 
-Du bekommst von mir den Zugang zur App.
+**3️⃣ Gib Feedback**
 
-**3️⃣ WhatsApp-Gruppe beitreten**
+Trete über den QR-Code der WhatsApp-Gruppe bei um informiert zu bleiben und Feedback zu geben
 
-Bleib auf dem Laufenden über Updates und tausche dich mit anderen Testern aus.
 
-**4️⃣ App herunterladen & Feedback geben**
-
-Lade Stockerl herunter und sag mir, was funktioniert und was nicht.
-
-</div>
-<div style="display: flex; flex-direction: column; gap: 1em; align-items: center;">
-  <div style="width: 150px; height: 150px; border: 2px solid #72590d; background: #f4f4f4; display: flex; align-items: center; justify-content: center; font-size: 0.7em; color: #72590d; text-align: center; padding: 1em;">
-    QR Code<br/>Website<br/>stockerl.app
-  </div>
-  <div style="width: 150px; height: 150px; border: 2px solid #72590d; background: #f4f4f4; display: flex; align-items: center; justify-content: center; font-size: 0.7em; color: #72590d; text-align: center; padding: 1em;">
-    QR Code<br/>WhatsApp<br/>Gruppe
-  </div>
-</div>
-</div>
 
 ---
 
-## Was ich von Ihnen brauche
+# Dem Test Beitreten
 
-### Einfach benutzen und mir sagen:
+<style scoped>
+table {
+  margin: 0 auto;
+  margin-top: 50px
+}
+</style>
 
-✓ **Ist es verständlich?** – Oder wo haben Sie gestutzt?
-✓ **Funktioniert es?** – Oder ist was abgestürzt?
-✓ **Was fehlt Ihnen?** – Welche Funktion vermissen Sie?
-✓ **Was nervt?** – Ehrliches Feedback ist Gold wert!
-
-**Lassen Sie uns gemeinsam die beste digitale Stockkarte bauen!**
+| Play Store Download | WhatsApp Gruppe |
+|:---:|:---:|
+| ![width:300px](assets/play_store_link.png) | ![width:300px](assets/whatsapp_link.png) |
 
 ---
 
 <!-- _class: title -->
 
-## Stockerl
-### Die App, die immer funktioniert
+![width:200px](assets/stockerl.png)
 
-**Von einem Imker für Imker entwickelt** 🐝
+# Stockerl
 
-**https://stockerl.app**
+**🐝📱 Von einem Imker für Imker entwickelt**
 
-*Danke für Ihre Aufmerksamkeit!*
 
----
+
+Janosch Braukmann | [janosch@stockerl.app](mailto:janosch@stockerl.app) | https://stockerl.app
