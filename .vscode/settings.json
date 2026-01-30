@@ -1,6 +1,7 @@
 {
     "markdown.marp.themes": [
         "./themes/janosch-braukmann.css",
-        "./themes/39c3.css"
+        "./themes/39c3.css",
+        "./themes/stockerl.css"
     ]
 }

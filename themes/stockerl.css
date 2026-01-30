@@ -1,0 +1,338 @@
+/* @theme stockerl */
+/* @auto-scaling fittingHeader */
+
+/* Import base theme */
+@import 'default';
+
+/* Material 3 Theme - Amber Seed Color */
+:root {
+    /* Primary (Amber) */
+    --md-sys-color-primary: #7d5700;
+    --md-sys-color-on-primary: #ffffff;
+    --md-sys-color-primary-container: #ffdea6;
+    --md-sys-color-on-primary-container: #271900;
+
+    /* Secondary */
+    --md-sys-color-secondary: #6d5d3f;
+    --md-sys-color-on-secondary: #ffffff;
+    --md-sys-color-secondary-container: #f6e1bb;
+    --md-sys-color-on-secondary-container: #251a04;
+
+    /* Tertiary */
+    --md-sys-color-tertiary: #4d6639;
+    --md-sys-color-on-tertiary: #ffffff;
+    --md-sys-color-tertiary-container: #cfecb4;
+    --md-sys-color-on-tertiary-container: #0b2000;
+
+    /* Error */
+    --md-sys-color-error: #ba1a1a;
+    --md-sys-color-on-error: #ffffff;
+    --md-sys-color-error-container: #ffdad6;
+    --md-sys-color-on-error-container: #410002;
+
+    /* Background */
+    --md-sys-color-background: #fffbff;
+    --md-sys-color-on-background: #1f1b16;
+
+    /* Surface */
+    --md-sys-color-surface: #fffbff;
+    --md-sys-color-on-surface: #1f1b16;
+    --md-sys-color-surface-variant: #ede1cf;
+    --md-sys-color-on-surface-variant: #4d4639;
+
+    /* Outline */
+    --md-sys-color-outline: #7f7667;
+    --md-sys-color-outline-variant: #d0c5b4;
+
+    /* Override base theme colors with Material 3 Amber theme */
+    --color-fg-default: var(--md-sys-color-on-background);
+    --color-fg-muted: var(--md-sys-color-on-surface-variant);
+    --color-fg-subtle: var(--md-sys-color-outline);
+
+    /* Accent colors from amber theme */
+    --color-accent: #72590d;
+    --color-highlight: #72590d;
+
+    /* Light color for inverted backgrounds */
+    --color-light: rgba(255, 255, 255, 0.7);
+
+    /* Warm background matching amber theme */
+    --color-canvas-default: var(--md-sys-color-background);
+    --color-canvas-subtle: var(--md-sys-color-surface-variant);
+
+    /* Links and interactive elements */
+    --color-accent-fg: var(--md-sys-color-primary);
+    --color-accent-emphasis: var(--md-sys-color-on-primary-container);
+}
+
+/* Base section styling */
+section {
+    background-color: var(--color-canvas-default);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-accent);
+}
+
+h1 {
+    font-size: 1.6em;
+    border-bottom: 2px solid #72590d;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.15em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 0.9em;
+}
+
+h1+h2,
+h1+h3 {
+    margin-top: -0.5em;
+}
+
+p {
+    font-size: 0.95em;
+}
+
+li {
+    font-size: 0.95em;
+}
+
+/* Tables */
+table {
+    font-weight: 300;
+    font-size: 0.85em;
+}
+
+table th {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    font-weight: 500;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Images in paragraphs */
+p>img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Code blocks - fit content width */
+pre {
+    width: fit-content;
+}
+
+/* Lead and invert slides */
+section.lead h1 {
+    border-bottom: 3px solid #72590d;
+}
+
+section.invert {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+section.invert h1,
+section.invert h2,
+section.invert h3 {
+    color: #fff;
+}
+
+section.invert h1 {
+    border-bottom-color: var(--color-highlight);
+}
+
+section.invert a {
+    color: var(--color-highlight);
+}
+
+section.invert code {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-highlight);
+}
+
+section.lead,
+section.chapter {
+    background: #f4e1ae;
+    color: #72590d;
+    justify-content: center;
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3,
+section.chapter h1,
+section.chapter h2,
+section.chapter h3 {
+    color: #72590d;
+}
+
+section.lead h1,
+section.chapter h1 {
+    border-bottom-color: #72590d;
+}
+
+section.lead a,
+section.chapter a {
+    color: #72590d;
+}
+
+section.lead code,
+section.chapter code {
+    background: rgba(114, 89, 13, 0.1);
+    color: #72590d;
+}
+
+section.lead footer,
+section.chapter footer,
+section.invert footer {
+    color: var(--color-light);
+}
+
+/* CTA slide - large centered call-to-action text */
+section.cta p {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3em;
+}
+
+section.cta p a {
+    color: var(--color-highlight);
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+}
+
+section.cta p a:hover {
+    background: var(--color-highlight);
+    color: #fff;
+}
+
+/* Title slide styling with amber theme */
+section.title {
+    background: #f4e1ae;
+    color: #72590d;
+    justify-content: center;
+    text-align: center;
+}
+
+section.title h1,
+section.title h2,
+section.title h3 {
+    color: #72590d;
+    border-bottom: none;
+}
+
+section.title h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+section.title h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+section.title p {
+    font-size: 1.1em;
+}
+
+
+
+/* Enhance code blocks with amber theme */
+code {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+pre code {
+    background: var(--md-sys-color-surface-variant);
+}
+
+/* Table headers with amber */
+table th {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+/* Blockquotes with amber accent */
+blockquote {
+    border-left: 4px solid var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    padding: 1em;
+    border-radius: 4px;
+}
+
+/* Strong text with primary color */
+strong {
+    color: var(--md-sys-color-primary);
+    font-weight: 600;
+}
+
+/* Links with amber theme */
+a {
+    color: var(--md-sys-color-primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s;
+}
+
+a:hover {
+    border-bottom-color: var(--md-sys-color-primary);
+}
+
+/* Badges for special emphasis */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 500;
+    background-color: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-on-tertiary-container);
+}
+
+/* Inverted sections maintain amber theme */
+section.invert {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+section.invert code {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--md-sys-color-primary-container);
+}
+
+/* Enhanced list styling */
+ul li::marker,
+ol li::marker {
+    color: var(--md-sys-color-primary);
+    font-weight: 600;
+}
