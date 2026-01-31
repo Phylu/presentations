@@ -10,6 +10,19 @@ paginate: true
 
 # Stockerl
 ## Die digitale Stockkarte
+---
+
+# Wer bin ich?
+
+**👨‍💻 Janosch Braukmann**
+
+**🐝 Imkerei**
+- Imkerausbildung 2024/2025 im Imkerverein Pfaffenhofen a.d.d Ilm
+- Derzeit zwei Bienenstöcke im Garten
+
+**💼 Beruflich**
+- Teamleiter Cloud und Informationssicherheitsbeauftragter  einer Krankenversicherung
+- Aktuell in Elternzeit
 
 ---
 
@@ -21,17 +34,17 @@ paginate: true
 
 # Warum (noch) eine Imker App?
 
-**Meine Überlegungen, als ich mit der Imkerei angefangen habe**
+**🧠 Meine Überlegungen, als ich mit der Imkerei angefangen habe**
 
-- 📝 Eine Stockkarte auf Papier kann verloren gehen und muss extre eingepackt werden
-- 📱 Eine Stockkarte im Handy habe ich immer dabei
+- Eine Stockkarte auf Papier kann verloren gehen und muss extre eingepackt werden
+-  Eine Stockkarte im Handy habe ich immer dabei
 
-**Also habe ich verschiedene Apps ausprobiert**
+**📱 Also habe ich verschiedene Apps ausprobiert**
 
 - Ich habe keine einfachen, intuitiven Apps gefunden, die die Kernfunktionen für mich als Imker geboten haben
 - Bei einer App habe ich es nichtmal geschafft, einen Bienenstock zu löschen
 
-**Mein Impuls: Das kann ich besser!**
+**💡 Mein Impuls: Das kann ich besser!**
 
 ---
 
