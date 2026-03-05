@@ -131,7 +131,7 @@ Open Source Backend (kein Google Vendor Lock-in) stellt die  PostgreSQL mit Row 
 
 **📎 Erweiterte Verwaltungsfunktionen**
 
-PDF- & Bild-Upload für Prüfberichte des Honigs, Archivierung alter Völker wenn ein Stock ausgetauscht wird.
+PDF- & Bild-Upload für Prüfberichte des Honigs oder Fotos der Bienenstöcke.
 
 **📊 Statistiken & Dashboards**
 
@@ -210,4 +210,4 @@ table {
 
 
 
-Janosch Braukmann | [janosch@stockerl.app](mailto:janosch@stockerl.app) | https://stockerl.app
+Janosch Braukmann | [janosch.braukmann@gmail.com](mailto:janosch.braukmann@gmail.com) | https://stockerl.app
